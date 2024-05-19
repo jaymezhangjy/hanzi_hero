@@ -1,0 +1,3 @@
+Instructions for saving
+
+Upon downloading the folders from Kaggle, save the Test and Train folders into this raw_data folder. We are good to run the notebook after this.
