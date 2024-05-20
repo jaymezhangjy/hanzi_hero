@@ -13,7 +13,7 @@ A recent article by [CNA](https://www.channelnewsasia.com/singapore/census-2020-
 
 With these considerations in mind, this project aims to build an image recognition model for handwritten Chinese characters and deploy it to Streamlit, so that we can assist students and non-Chinese learners better with their learning journey.
   
-This repository provides all the processes and codes needed to build the image recognition model.  A separate repository `hanzi_hero_streamlit` focuses on deploying the trained model to a user interface using Streamlit Cloud. The user interface can be accessed via this [link](https://hanzi-hero.streamlit.app/): https://hanzi-hero.streamlit.app/.
+This repository provides all the processes and codes needed to build the image recognition model.  A separate repository [Hanzi Hero Streamlit](https://github.com/jaymezhangjy/hanzi_hero_streamlit) focuses on deploying the trained model to a user interface using Streamlit Cloud. The user interface can be accessed via this [link](https://hanzi-hero.streamlit.app/): https://hanzi-hero.streamlit.app/.
 
 ## Problem Statement
 
@@ -72,7 +72,7 @@ Currently, our model is trained on 10 Chinese characters. For the model to be ad
   
 We also noticed that the model is unable to provide the correct prediction when we deliberately added or missed a few strokes for the Chinese character. We would need to improve the precision of the model by training it on a larger dataset of Chinese characters with printed handwritings which are more similar to children's handwritings, rather than cursive ones. Moreover, the dataset that it was trained on was obtained from adults, and most would have developed their unique writing style by then.
 
-While this repository focuses on the model itself, limitations and improvements pertaining to deployment onto Streamlit Cloud are detailed in the readme of another repository `hanzi_hero_streamlit`.
+While this repository focuses on the model itself, limitations and improvements pertaining to deployment onto Streamlit Cloud are detailed in the readme of [Hanzi Hero Streamlit](https://github.com/jaymezhangjy/hanzi_hero_streamlit) repository.
 
 ## Python Libraries Requirements
 
